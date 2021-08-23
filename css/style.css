@@ -23,14 +23,13 @@ body {
 background:#F2B90F;
 font-family: 'Monoton', cursive;
 height:100%;
-color: #F21628;;
+color: #F21628;
 }
 
 .wrapper {
 width: 800px;
 margin: 30px auto;
-color:
-text-align:center;
+text-align: center;
 }
 
 h1, h2, h3 {
@@ -39,13 +38,15 @@ h1, h2, h3 {
   font-size: 2.6em;
   text-transform: uppercase;
   color: #F21628;
-  text-align: left;
+  text-align: center;
   padding: 10px;
 }
 
 #seconds, #tens, #colon{
   font-size:3em;
   color: #C9EBF2;
+  font-family: Arial, Helvetica, sans-serif;
+  size:5px;
 }
 
 button{
@@ -61,7 +62,7 @@ margin: 10px;
 border-radius: 0.5rem;
 }
 
-button:hover {
+button:hover{
   background: #C9EBF2;
 }
 
